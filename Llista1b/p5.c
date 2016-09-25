@@ -34,7 +34,7 @@ int main()
 		else
 		{
 			//febre 28 0 29 ??
-			if (any%2 == 0 && any%100 != 0)
+			if (any%4 == 0 && any%400 == 0)
 			{
 				diesmes = 29;
 			}
