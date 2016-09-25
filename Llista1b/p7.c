@@ -29,7 +29,7 @@ int main()
 	  }
 	else
 	  {
-	    if (!(preu < pagat))
+	    if (!(preu >0 && preu < pagat))
 	      {
 		//No hi ha suficients diners
 		printf("No hi han suficient diners.\n");
