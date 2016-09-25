@@ -24,6 +24,7 @@ int main ()
 	
 	if (max < min)
 	{
+		//canvio la seva posicio
 		min = max;
 		max = b;
 	}
