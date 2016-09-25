@@ -8,7 +8,7 @@ int main()
   int moneda[] = {200,100,50,20,10,5};
   int canvi[6],preu,pagat,diferencia;
   int i = 0;
-  int check;
+  int check = 0;
   float Preu,Pagat;
   
   
@@ -22,7 +22,7 @@ int main()
 	pagat = (int)(Pagat*100);
 
 	//check
-	if (!(preu%5 == 0 || pagat%5 == 0))
+	if (!(preu%5 == 0 && pagat%5 == 0))
 	  {
 	    //No puc donar canvi
 	    printf("No hi ha canvi suficient.\n");
