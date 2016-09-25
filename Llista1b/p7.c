@@ -26,7 +26,6 @@ int main()
 	  {
 	    //No puc donar canvi
 	    printf("No hi ha canvi suficient.\n");
-	    return 0;
 	  }
 	else
 	  {
@@ -34,7 +33,6 @@ int main()
 	      {
 		//No hi ha suficients diners
 		printf("No hi han suficient diners.\n");
-		return 0;
 	      }
 	    else
 	      {
