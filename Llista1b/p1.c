@@ -14,7 +14,7 @@ int main()
 
 	if (valor < 0 ) 
 	{
-	_abs = valor-2*valor;
+	_abs = -valor;
 	}
 	else
 	{
