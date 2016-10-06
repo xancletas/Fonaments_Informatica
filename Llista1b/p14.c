@@ -14,7 +14,7 @@ int main()
 	scanf	("%d", &n);
 	
 	//calculs
-	if(n == 2 && n == 1)
+	if(n == 2 || n == 1)
 	{
 		primer = 1;
 	}
